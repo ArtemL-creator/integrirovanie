@@ -1,0 +1,19 @@
+﻿  integrirovanie.cpp
+D:\Projects\integrirovanie\integrirovanie\integrirovanie.cpp(26,18): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(46,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(43): message : во время компиляции функции-члена класс шаблон "void F_rectangle<float>::setF(std::string)"
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(111): message : выполняется компиляция ссылки на экземпляр шаблон функции "void F_rectangle<float>::setF(std::string)"
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(104): message : во время компиляции функции-члена класс шаблон "void F_rectangle<float>::func(T,T,int,std::string)"
+          with
+          [
+              T=float
+          ]
+D:\Projects\integrirovanie\integrirovanie\integrirovanie.cpp(26): message : выполняется компиляция ссылки на экземпляр шаблон функции "void F_rectangle<float>::func(T,T,int,std::string)"
+          with
+          [
+              T=float
+          ]
+D:\Projects\integrirovanie\integrirovanie\integrirovanie.cpp(13): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "F_rectangle<float>"
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(49,87): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\integrirovanie\integrirovanie\F_rectangle.h(73,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  integrirovanie.vcxproj -> D:\Projects\integrirovanie\Debug\integrirovanie.exe
